@@ -1,0 +1,214 @@
+body{
+	background-color: #1f2229;
+	color: rgba(152, 167, 177, 0.75);
+}
+
+.boxed {
+	background-color: #272b33;
+}
+
+hr { border-color: rgba(152, 167, 177, 0.1); }
+
+.title {
+	color: #fff;
+}
+.title-sub {
+	color: rgb(152, 167, 177);
+}
+.txt-white.title-sub {
+	color: #fff;
+}
+.txt-dark2,
+.txt-dark2.title,
+h1, h2, h3, h4, h5, h6,
+
+.typo-light h1,
+.typo-light h2,
+.typo-light h3,
+.typo-light h4,
+.typo-light h5,
+.typo-light h6,
+.typo-light .title-sub,
+.typo-light .pg-path,
+.typo-light .list-3,
+.typo-light p {
+    color: rgb(185, 203, 216);
+}
+
+.bg-gray {
+	background-color: #282c35;
+}
+.bg-color2 {
+    background-color: #445446; /* green */
+}
+
+.tag-text {
+    background-color: #fff;
+    color: #1f2229;
+}
+
+.bdr-op-2.row-bdr, 
+.bdr-op-2.row-bdr > [class*="flex-col-"], 
+.bdr-op-2.row-sep > [class*="flex-col-"],
+.bdr-op-2.form-control:hover, 
+.bdr-op-2.form-control:focus, 
+.bdr-op-2 {
+    border-color: rgba(152, 167, 177, 0.2);
+}
+
+.bdr-op-1.row-bdr,
+.bdr-op-1.row-bdr > [class*="flex-col-"],
+.bdr-op-1.row-sep > [class*="flex-col-"],
+.bdr-op-1.form-control:hover,
+.bdr-op-1.form-control:focus,
+.bdr-op-1 {
+    border-color: rgba(152, 167, 177, 0.1);
+}
+
+/* Filterable items */
+.filter-style1 .filter-list {
+    border-color: rgba(152, 167, 177, 0.2);
+}
+.filter-style1 .filter-list > .active {
+    border-color: #1f9df3;
+}
+
+/* Form */
+.form-control {
+	border-color: rgba(152, 167, 177, 0.2);
+}
+.form-control:hover,
+.form-control:focus {
+	border-color: rgba(152, 167, 177,0.5);
+	box-shadow: none;
+}
+.form-control.bdr-white {
+	border-color: #fff;
+}
+
+
+/* Buttons */
+.btn-gray,
+.btn-default.disabled,
+.btn-default[disabled],
+.btn-default {
+	border-color: rgba(152, 167, 177, 0.75);
+	color: rgba(152, 167, 177, 0.75);
+}
+
+.btn-gray:hover,
+.btn-gray:focus,
+.btn-gray:active,
+.btn-gray.active,
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active,
+.btn-default.active {
+	background-color: #fff;
+	border-color: #fff;
+	color: #1f2229;
+}
+
+.solid.btn-default {
+	border-color: rgba(152, 167, 177, 0.75);
+	background-color: rgba(152, 167, 177, 0.75);
+	color: #1f2229;
+}
+.solid.btn-default:hover,
+.solid.btn-default:focus,
+.solid.btn-default:active,
+.solid.btn-default.active {
+	border-color: #fff;
+	color: #fff;
+}
+
+
+/* Counter */
+.counter-section .bg-dark1 {
+	background-color: #1879bb;
+}
+.counter-section .bg-dark2 {
+	background-color: #136ba7;
+}
+.counter-section .iconwrp { color: #fff; }
+
+
+/* Accordions */
+.acc-style1 .acc-hd, .panel-hd a {
+    border-color: rgba(152, 167, 177, 0.1);
+}
+.acc-style1 .acc-hd {
+    color: rgb(185, 203, 216);
+}
+.acc-style2 .acc-hd {
+    background-color: rgba(255,255,255,0.03);
+    border: 1px solid rgba(255,255,255,0.03);
+    color: #fff;
+}
+
+/* Progress */
+.progress {
+    background-color: rgba(185, 203, 216, 0.1);
+}
+
+/* Tabs */ 
+.tab-style2 .tb-list {
+	border-color: rgba(255,255,255,0.03);
+}
+
+/* Tab style 1
+=========================*/
+.tab-style1 .tb-list {
+	border-color: #1f9df3;
+}
+.tab-style1 .tb-list > li {
+	background-color: rgba(255,255,255,0.03);
+}
+.tab-style1 .tb-list > li.active {
+	background-color: #1f9df3;
+}
+.tab-style1 .tb-content {
+	background-color: rgba(255,255,255,0.03);
+}
+.tab-style1.tb-r .tb-list,
+.tab-style1.side-tab:not(.tb-r)  .tb-list {
+	border-color: #1f9df3;
+}
+
+/* Tab style 2
+=========================*/
+.tab-style2 .tb-list {
+	border-color: rgba(255,255,255,0.1);
+}
+.tab-style2 .tb-list > li.active,
+.tab-style2.side-tab .tb-list > li.active {
+	border-color: #1f9df3;
+	color: #fff;
+}
+.tab-style2.side-tab .tb-list > li,
+.tab-style2.tb-r .tb-list,
+.tab-style2.side-tab:not(.tb-r)  .tb-list {
+	border-color: rgba(255,255,255,0.1);
+}
+
+
+/* Tab style 3
+=========================*/
+.tab-style3 .tb-list {
+	background-color: rgba(255,255,255,0.1);
+}
+.tab-style3 .tb-list > li.active {
+	background-color: rgba(0,0,0,0.4);
+}
+
+
+/* Tab style 4
+=========================*/
+.tab-style4 .tb-list > li {
+	border-color: rgba(255,255,255,0.1);
+	background-color: rgba(255,255,255,0.02);
+}
+.tab-style4 .tb-list > li.active {
+	background-color: #1f9df3;
+	border-color: #1f9df3;
+}
